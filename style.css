@@ -1,0 +1,207 @@
+body{
+  /* background-color: #e4dbd9; */
+  background-image: url(img.jpg);
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+  color: white;
+  margin-left: 25px;
+  width: 147px;
+}
+
+/* hr{
+  height: 1px;
+  background-color: white;
+  border: rgb(0, 0, 0, 1);
+} */
+
+a{
+  text-decoration: none;
+  color: #6e93d6;
+}
+
+button:hover{
+  background-color: green;
+  border: green;
+  transition-duration: 1s;
+}
+
+.container{
+  background-color:rgb(0, 0, 0, 0.5);
+  width: 500px;
+  height: 530px;
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-top: 75px;
+  padding-top: 0px;
+  box-shadow: 2px 2px 10px black;
+  /* border: 3px solid black; */
+  border-radius: 7px;
+}
+
+.header{
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.heading{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 0 0 25px;
+}
+
+.desc{
+  color: white;
+  margin: 5px 0 0 25px;
+}
+
+::-webkit-input-placeholder{
+  font-size: 15px;
+  opacity: 50%;
+}
+
+input[type="text"],
+input[type="password"]{
+  background-color: #f2f2f2;
+  font-size: 15px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.nameDepan{
+  width: 204px;
+  margin-left: 25px;
+  padding-left: 3px;
+  margin-top: 10px;
+  border: 1px solid white;
+}
+
+.nameBelakang{
+  width: 204px;
+  border-radius: 7px;
+  margin-left: 25px;
+  padding-left: 3px;
+  margin-top: 10px;
+  border: 1px solid white;
+}
+
+.contact,
+.password{
+  width: 445px;
+  border-radius: 7px;
+  margin-left: 25px;
+  padding-left: 3px;
+  margin-top: 10px;
+  border: 1px solid white;
+}
+
+.pLabel1{
+  font-size: 13px;
+  color: white;
+  margin: 0 0 5px 25px;
+}
+
+.pLabel2{
+  font-size: 13px;
+  color: white;
+  margin: 0 0 11px 25px;
+}
+
+#date{
+  width: 134px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-left: 25px;
+}
+
+#month,
+#year{
+  width: 134px;
+  height: 35px;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+.gender1,
+.gender2,
+.gender3{
+  display:  inline;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+}
+
+.gender1{
+  border-radius: 3px;
+  padding: 8px 50px 8px 5px;
+}
+
+.gender2{
+  margin-left: 21px;
+  border-radius: 3px;
+  padding: 8px 74px 8px 5px;
+}
+
+.gender3{
+  margin-left: 20px;
+  border-radius: 3px;
+  padding: 8px 79px 8px 5px;
+}
+
+label#gender::before{
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 7px;
+  border: 5px solid #63a583;
+  border-radius: 50px;
+  margin-left: 105px;
+  padding-top: 1px;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+input[type="radio"]:checked + label#gender::before{
+  background: #63a583;
+  border: 5px solid white;
+}
+
+input[type="radio"]:checked + label{
+  background-color: #63a583;
+  color: white;
+}
+
+.agree{
+  background-color: rgb(255, 255, 255, 0.1);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: #F5F5F5;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 13px;
+}
+
+.button{
+  background-color: #63a583;
+  width: 175px;
+  height: 35px;
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+  margin: 10px 0 0 162px;
+  border-radius: 7px;
+  border: 3px solid #63a583;
+}
